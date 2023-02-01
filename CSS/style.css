@@ -8,6 +8,10 @@
 .mb {
   margin-bottom: 2rem;
 }
+.linkDash{
+  text-decoration: none;
+  color: black;
+}
 
 .images {
   border: 15px solid white;
@@ -99,10 +103,35 @@ th{
 @media screen and (max-width: 355px){
   .profile-name{ display: none; }
 }
+.success1{
+  font: normal normal normal 15px/20px Roboto;
+letter-spacing: 0px;
+color: #3CDD5F;
+padding: 10px;
+  background: #EBFFEF 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  text-align: center;
+}
+.danger1{
+  background: #FFF5F5 0% 0% no-repeat padding-box;
+border-radius: 5px;
+text-align: left;
+font: normal normal normal 15px/20px Roboto;
+letter-spacing: 0px;
+color: #FF4545;
+padding: 10px;
+text-align: center;
+}
+.pending1{
+  font: normal normal normal 15px/20px Roboto;
+letter-spacing: 0px;
+color: #BABABA;
+background: #F8F8F8 0% 0% no-repeat padding-box;
+border-radius: 5px;
+padding: 10px;
+text-align: center;
+}
 
-
-
-/* ! innerpage */
 
 .checked{
   background-color: red;
